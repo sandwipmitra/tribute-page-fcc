@@ -3,11 +3,44 @@ html {
   width: 100%;
 }
 
-#image{
+body {
+  font-family: sans-serif;
+}
+
+#image {
   max-width: 100%;
   height: auto;
-  margin:1em auto 2em;
+  margin: 1em auto 2em;
 }
-img{
+
+img {
   display: block;
+}
+
+.info {
+  background-color: #eeeaef;
+  display: grid;
+  place-items: center;
+  height: 8em;
+
+}
+
+.info,
+.tribute,
+.tribute-text {
+  max-width: 100%;
+  height: auto;
+  margin: 1em auto 2em;
+}
+
+.tribute {
+  width: 50%;
+}
+
+.tribute-text {
+  justify-content: center;
+}
+
+.tribute-text li p {
+  line-height: 25px;
 }
